@@ -1,6 +1,6 @@
 $secondary: rgba(103, 103, 103, 1);
 $tertiary: rgba(197, 63, 139, 1);
-// border: 1px solid $border-dark;
+$maintext: rgba(64, 64, 64, 1);
 
 body * {
     box-sizing: border-box;
@@ -67,6 +67,14 @@ ul {
     text-align: right;
 }
 
+.text-start {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
 h1 {
     font-size: 75px;
     font-family: "interstate";
@@ -76,6 +84,21 @@ h1 {
     margin-bottom: 50px;
     text-transform: capitalize;
 }
+
+@keyframes pulse1 {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(139, 197, 63, .5);
+    }
+
+    70% {
+        -webkit-box-shadow: 0 0 0 20px rgba(139, 197, 63, 0);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(139, 197, 63, .5);
+    }
+}
+
 
 .greenbtn {
     border: 3px solid rgba(#8BC53F, 0.5);
@@ -98,6 +121,10 @@ h1 {
     img {
         margin-left: 10px;
         width: 24px;
+    }
+
+    &:hover {
+        animation: pulse1 2s infinite;
     }
 }
 
@@ -138,9 +165,13 @@ img {
     max-width: 100%;
 }
 
+.white-bg {
+    background: #fff;
+}
 
-
-
+.green-bg {
+    background: rgba(226, 240, 207, 1);
+}
 
 
 
