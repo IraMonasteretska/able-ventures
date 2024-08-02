@@ -1,7 +1,7 @@
 .welcsection {
     position: relative;
     overflow: hidden;
-
+    
     .waveimg {
         position: absolute;
         z-index: 1;
@@ -696,3 +696,132 @@
     }
 }
 
+@media(max-width:575.8px) {
+
+    .welcsection__bgelleft,
+    .welcsection__bgelright {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .welcsection__left {
+        padding-top: 120px;
+    }
+
+    .breadcrumbs {
+        display: none;
+    }
+
+    .welcsection h1 {
+        margin-bottom: 20px;
+    }
+
+    .welcsection .waveimg {
+        width: 1300px;
+        max-width: inherit;
+    }
+
+    .welcsection .col-lg-6:first-child {
+        padding-bottom: 0;
+    }
+
+    .welcsection__img img {
+        max-width: 260px;
+    }
+
+    .welcsection__img {
+        padding-bottom: 100px;
+    }
+
+    .servicebox {
+        height: auto;
+        min-height: 200px;
+    }
+
+    .dataanalitics .secttitle,
+    .setvinfosect .secttitle {
+        margin-bottom: 25px;
+    }
+
+    .dataanlist .imgwrap {
+        max-width: 50px;
+        flex: 0 0 50%;
+    }
+
+    .dataanlist .descrwrap {
+        max-width: calc(100% - 50px);
+        flex: 0 0 calc(100% - 50px);
+        padding-left: 10px;
+    }
+
+    .dataanlist .descrwrap .title {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .dataanlist {
+        margin-bottom: 20px;
+    }
+
+    .rowinf {
+        margin-bottom: 20px;
+    }
+
+    .rowinf .text-center img {
+        margin: 15px 0;
+    }
+
+    .textsect .title {
+        font-size: 28px;
+    }
+
+    .textsect .title {
+        margin-bottom: 25px;
+    }
+
+
+    .dataanlists .boxtitle {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .services .secttitle {
+        margin-bottom: 40px;
+    }
+
+    .welcsection__left p {
+        font-size: 14px;
+    }
+
+    .dataanalitics,
+    .services,
+    .setvinfosect {
+        padding: 60px 0 40px;
+    }
+
+    .partnersect .partnersect__left .textwrapper {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .partnersect .partnersect__left {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 30px 0;
+    }
+
+    .partnersect .partnersect__right {
+        display: none;
+    }
+
+    .partnersect .partnersect__left .partnerlogo {
+        display: none;
+    }
+
+    .setvinfosect .gallsect {
+        margin-bottom: 15px;
+    }
+
+
+}
