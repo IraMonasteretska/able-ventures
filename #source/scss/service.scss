@@ -1,0 +1,251 @@
+.welcsection.welcsection__green {
+    background: rgba(226, 240, 207, 1);
+
+    .col-lg-6:nth-child(2) {
+        justify-content: flex-start;
+    }
+}
+
+.sinfosect {
+    padding: 150px 0 0 0;
+
+    .descr {
+        max-width: 460px;
+
+        p {
+            font-size: 18px;
+            color: $secondary;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        &.w100 {
+            max-width: 100%;
+        }
+    }
+
+    img {
+        border-radius: 4px;
+    }
+}
+
+.sinfosect__block {
+    background: #EEF4EC;
+    padding: 30px;
+    margin-bottom: 20px;
+    min-height: 300px;
+
+    p {
+        font-size: 18px;
+        color: $secondary;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .title {
+        font-family: "interstate";
+        font-weight: 600;
+        font-size: 25px;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+        position: relative;
+        text-transform: capitalize;
+        color: rgba(43, 60, 21, 1);
+
+        &::after {
+            content: '';
+            display: inline-block;
+            height: 3px;
+            width: 60px;
+            background: $tertiary;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+    }
+}
+
+.countsect {
+    margin: 40px 0 60px;
+}
+
+.countsect__title {
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    position: relative;
+    font-family: "interstate";
+    font-weight: 600;
+    color: rgba(43, 60, 21, 1);
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 115%;
+
+    &::after {
+        content: '';
+        display: inline-block;
+        height: 4px;
+        width: 120px;
+        background: $tertiary;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}
+
+.countsect__box {
+    display: flex;
+    flex-wrap: wrap;
+
+    .imgwrap {
+        width: 100%;
+        max-width: 74px;
+        flex: 0 0 74px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .description {
+        width: 100%;
+        max-width: calc(100% - 74px);
+        flex: 0 0 calc(100% - 74px);
+        padding-left: 25px;
+
+        h6 {
+            margin-bottom: 15px;
+            font-family: "interstate";
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 115%;
+            text-transform: capitalize;
+            color: rgba(43, 60, 21, 1);
+        }
+
+        p {
+            font-size: 18px;
+            color: $secondary;
+            margin: 0;
+        }
+    }
+}
+
+.contactblock {
+    margin: 80px 0 130px;
+}
+
+.contactblockwrap {
+    padding: 60px 74px;
+    position: relative;
+    background: $secondary;
+    border-radius: 4px;
+
+    .linebg {
+        position: absolute;
+        right: 0;
+        top: 0;
+        opacity: 0.2;
+        height: 100%;
+    }
+}
+
+.contactblock__descr {
+    max-width: 746px;
+
+    .title {
+        color: #fff;
+        font-family: "interstate";
+        font-weight: 600;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        font-size: 55px;
+        position: relative;
+        padding-bottom: 15px;
+        line-height: 115%;
+
+        &::after {
+            content: '';
+            display: inline-block;
+            height: 4px;
+            width: 120px;
+            background: rgba(139, 197, 63, 1);
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+    }
+
+    .descr {
+        margin-bottom: 40px;
+
+        p {
+            margin: 0;
+            color: #fff;
+            font-size: 18px;
+        }
+    }
+}
+
+.sinfosectab {
+    padding: 130px 0;
+}
+
+.sinfosectab {
+    .secttitle {
+        margin-bottom: 60px;
+    }
+
+    .descr p {
+        font-size: 18px;
+        color: $secondary;
+    }
+
+    .intermediate-box {
+        margin: 60px 0;
+
+        .subtitle {
+            font-family: "interstate";
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: rgba(43, 60, 21, 1);
+            font-size: 25px;
+            line-height: 115%;
+            text-transform: capitalize;
+        }
+
+        .descr {
+            p {
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .boxtitle {
+        margin-bottom: 30px;
+        position: relative;
+        font-family: "interstate";
+        font-weight: 600;
+        padding-bottom: 15px;
+        color: rgb(43, 60, 21);
+        font-size: 40px;
+        line-height: normal;
+        text-transform: capitalize;
+
+        &::after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 4px;
+            width: 120px;
+            background: rgb(197, 63, 139);
+        }
+    }
+}

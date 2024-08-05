@@ -75,3 +75,57 @@
     }
 }
 
+@media(max-width:991.8px) {
+    .setvinfosect.solutbox {
+        .imgwrap {
+            margin-top: 30px;
+        }
+    }
+
+    .followingsolutions {
+        padding: 70px 0 50px;
+    }
+
+    .solutionbox {
+        margin-bottom: 30px;
+    }
+
+    .solutionbox .imgwrap {
+        height: 240px;
+    }
+
+}
+
+@media(max-width:575.8px) {
+    .setvinfosect.solutbox .imgwrap {
+        margin-top: 20px;
+    }
+
+    .followingsolutions {
+        padding: 50px 0 30px;
+    }
+
+    .solutionbox {
+        padding: 15px;
+    }
+
+    .solutionbox .imgwrap {
+        height: 160px;
+    }
+
+    .solutionbox h6 {
+        font-size: 24px;
+        padding-top: 10px;
+        margin-bottom: 15px;
+
+        &::after {
+            height: 3px;
+            width: 80px;
+        }
+    }
+
+
+
+
+}
+
