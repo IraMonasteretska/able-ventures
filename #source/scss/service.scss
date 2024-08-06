@@ -67,6 +67,14 @@
             bottom: 0;
         }
     }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: rgb(103, 103, 103);
+    }
 }
 
 .countsect {
@@ -94,6 +102,8 @@
         left: 0;
         bottom: 0;
     }
+
+
 }
 
 .countsect__box {
@@ -130,6 +140,14 @@
             font-size: 18px;
             color: $secondary;
             margin: 0;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: rgb(103, 103, 103);
         }
     }
 }
@@ -248,4 +266,174 @@
             background: rgb(197, 63, 139);
         }
     }
+}
+
+
+@media(max-width:1599.8px) {
+    .sinfosect {
+        padding: 100px 0 0 0;
+    }
+
+    .contactblock {
+        margin-bottom: 100px;
+    }
+
+    .sinfosectab {
+        padding: 100px 0;
+    }
+
+    .sinfosect .descr p,
+    .sinfosect__block p,
+    .countsect__box .description p,
+    .contactblock__descr .descr p,
+    .sinfosectab .descr p {
+
+        font-size: 16px;
+    }
+}
+
+@media(max-width:991.8px) {
+    .contactblock__descr {
+        position: relative;
+        z-index: 2;
+    }
+
+    .sinfosect {
+        padding: 70px 0 50px;
+    }
+
+    .sinfosect {
+        .secttitle {
+            br {
+                display: none;
+            }
+        }
+    }
+
+    .sinfosect .descr {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .countsect__title,
+    .sinfosectab .boxtitle {
+        font-size: 32px;
+    }
+
+    .countsect .col-lg-4 {
+        .countsect__box {
+            margin-bottom: 30px;
+        }
+
+        &:last-child .countsect__box {
+            margin-bottom: 0;
+        }
+    }
+
+    .sinfosect img {
+        width: 100%;
+    }
+
+    .contactblock {
+        margin: 60px 0;
+    }
+
+    .sinfosectab {
+        padding: 70px 0;
+    }
+
+    .sinfosectab .imgwrap img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media(max-width:575.8px) {
+
+    .welcsection.welcsection__green {
+        .welcsection__img {
+            padding-bottom: 0;
+        }
+
+        .welcsection__left {
+            padding-top: 80px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .welcsection__img img {
+            max-width: 100%;
+            width: 100%;
+            margin-top: 50px;
+        }
+
+
+    }
+
+    .sinfosect {
+        padding: 60px 0 40px;
+    }
+
+    .sinfosect__block {
+        padding: 20px;
+        min-height: initial;
+    }
+
+    .countsect__title,
+    .sinfosectab .boxtitle {
+        font-size: 24px;
+    }
+
+    .countsect__box .imgwrap {
+        max-width: 44px;
+        flex: 0 0 44px;
+    }
+
+    .countsect__box .description {
+        max-width: calc(100% - 44px);
+        flex: 0 0 calc(100% - 44px);
+    }
+
+    .countsect__box .description {
+        padding-left: 10px;
+    }
+
+    .countsect__box .description h6 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .countsect__title {
+        margin-bottom: 20px;
+    }
+
+    .contactblockwrap {
+        padding: 20px;
+    }
+
+    .contactblock__descr .title {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .contactblockwrap {
+        overflow: hidden;
+        position: relative;
+
+        .linebg {
+            right: -200px;
+        }
+    }
+
+    .sinfosectab {
+        padding: 50px 0;
+    }
+
+    .sinfosectab .descr p:last-child {
+        margin-bottom: 0;
+    }
+
 }
