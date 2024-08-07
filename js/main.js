@@ -51,7 +51,7 @@ $(document).ready(function () {
         $('.header__navcol').toggleClass('show');
     })
 
-   
+
 
 
 
@@ -61,7 +61,21 @@ $(document).ready(function () {
 
 
 
+    // AOS
+    //   AOS.init({
+    //     once: true,
+    //     offset: -50,
+    //     duration: 800,
+    //     easing: "ease-in-out",
+    // });
 
+    // styled selects
+    if ($('select').length) {
+        $('.styledselect').select2({
+            // placeholder: "Project Type*",
+            minimumResultsForSearch: Infinity,
+        });
+    }
 
 
 
