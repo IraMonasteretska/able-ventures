@@ -51,23 +51,12 @@ $(document).ready(function () {
         $('.header__navcol').toggleClass('show');
     })
 
-
-
-
-
-
-
-    // if ($(window).width() < 1200) {}
-
-
-
-    // AOS
-    //   AOS.init({
-    //     once: true,
-    //     offset: -50,
-    //     duration: 800,
-    //     easing: "ease-in-out",
-    // });
+    AOS.init({
+        once: true,
+        offset: -50,
+        duration: 1000,
+        easing: "ease-in-out",
+    });
 
     // styled selects
     if ($('select').length) {
@@ -76,13 +65,5 @@ $(document).ready(function () {
             minimumResultsForSearch: Infinity,
         });
     }
-
-
-
-
-
-
-
-
 
 });

@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
     <link rel="stylesheet" href="css/lib/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/lib/select2.css">
+    <link rel="stylesheet" href="css/lib/aos.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
     <div class="pagewrapper">
         <header class="header">
             <div class="container">
@@ -27,22 +30,22 @@
                                     <a href="#">Services</a>
                                     <ul class="submenu">
                                         <li><a href="services.html">Services</a></li>
-                                        <li><a href="#">Data Analytics</a></li>
-                                        <li><a href="#">Data Integration and Interfaces</a></li>
-                                        <li><a href="#">Data Security</a></li>
-                                        <li><a href="#">Cloud ERP Implementations</a></li>
-                                        <li><a href="#">Resource Enablement</a></li>
+                                        <li><a href="service-page.html">Data Analytics</a></li>
+                                        <li><a href="service-page.html">Data Integration and Interfaces</a></li>
+                                        <li><a href="service-page.html">Data Security</a></li>
+                                        <li><a href="service-page.html">Cloud ERP Implementations</a></li>
+                                        <li><a href="service-page.html">Resource Enablement</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">
-                                    <a href="solution.html">Solutions</a>
+                                    <a href="#">Solutions</a>
                                     <ul class="submenu">
                                         <li><a href="solution.html">Solutions</a></li>
-                                        <li><a href="#">Managed Services</a></li>
-                                        <li><a href="#">Data Analytics and Reporting</a></li>
+                                        <li><a href="data-analitics.html">Managed Services</a></li>
+                                        <li><a href="data-analitics.html">Data Analytics and Reporting</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Contacts</a></li>
+                                <li><a href="contacts.html">Contacts</a></li>
                             </ul>
                             <a href="#" target="_blank" class="soc">
                                 <img src="img/general/ln-header.svg" alt="linkedin">
@@ -79,8 +82,8 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="welcsection__left">
-                                    <h1>Contacts</h1>
-                                    <div class="breadcrumbs">
+                                    <h1 data-aos="fade-left">Contacts</h1>
+                                    <div class="breadcrumbs" data-aos="fade-left" data-aos-delay="100">
                                         <ul>
                                             <li><a href="#">Home</a></li>
                                             <li>Contacts</li>
@@ -108,8 +111,8 @@
             <div class="contactsection">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-5">
-                            <div class="contacts__descr">
+                        <div class="col-xl-5 col-lg-5">
+                            <div class="contacts__descr" data-aos="fade-up">
                                 <p class="secttitle">
                                     We are here to help
                                 </p>
@@ -129,8 +132,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-6">
-                            <div class="contacts__form">
+                        <div class="col-xl-6 col-lg-7">
+                            <div class="contacts__form" data-aos="fade-up">
                                 <form action="#">
                                     <div class="row">
                                         <div class="col-lg-6">
@@ -252,6 +255,8 @@
     </div>
 
     <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/select2.js"></script>
+    <script src="js/lib/aos.js"></script>
     <script src="js/main.js"></script>
 </body>
 
